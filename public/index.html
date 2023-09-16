@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./tailwind.css">
+    <link rel="shortcut icon" href="/public/images/favicon.ico" type="image/x-icon">
+    <title>Electric cars, Solar & Clean Energy | Tesla</title>
+</head>
+
+<body>
+    <div>
+        <nav class="navbar">
+            <img src="/public//images/tesla.svg" alt="" class="w-1/6 min-w-small">
+            <div class="flex justify-between p-5 w-1/2">
+                <a href="#modelS" class="nav_links hover:bg-slate-400 p-2 rounded-lg lg:block hidden">Model S</a>
+                <a href="#model3" class="nav_links hover:bg-slate-400 p-2 rounded-lg lg:block hidden">Model 3</a>
+                <a href="#modelX" class="nav_links hover:bg-slate-400 p-2 rounded-lg lg:block hidden">Model X</a>
+                <a href="#modelY" class="nav_links hover:bg-slate-400 p-2 rounded-lg lg:block hidden">Model Y</a>
+                <a href="#Solar Roof" class="nav_links hover:bg-slate-400 p-2 rounded-lg lg:block hidden">Solar Roof</a>
+                <a href="#Solar Panels" class="nav_links hover:bg-slate-400 p-2 rounded-lg lg:block hidden">Solar
+                    Panels</a>
+            </div>
+            <div class="flex flex-col">
+                <a href="http://shop.tesla.com"
+                    class="nav_links hover:bg-slate-400 p-2 rounded-lg lg:block hidden">Shop</a>
+                <a href="#Menu" class="nav_links hover:bg-slate-400 p-2 rounded-lg lg:block hidden">Account</a>
+                <a href="#Menu" class="nav_links hover:bg-slate-400 p-2 rounded-lg lg:hidden block"
+                    onclick="menuIcon()">Menu</a>
+            </div>
+        </nav>
+        <nav class="mobile_navbar" id="popmenu">
+            <p class="top-0 w-9/12 text-4xl text-slate-400 font-medium cursor-pointer -mr-20 py-2 items-start"
+                id="close" onclick="closeIcon()">X
+            </p>
+            <div class="flex p-3 flex-col">
+                <a href="#modelS" class="nav_links hover:bg-slate-400 p-2 rounded-lg">Model S</a>
+                <a href="#model3" class="nav_links hover:bg-slate-400 p-2 rounded-lg">Model 3</a>
+                <a href="#modelX" class="nav_links hover:bg-slate-400 p-2 rounded-lg">Model X</a>
+                <a href="#modelY" class="nav_links hover:bg-slate-400 p-2 rounded-lg">Model Y</a>
+                <a href="#Solar Roof" class="nav_links hover:bg-slate-400 p-2 rounded-lg">Solar Roof</a>
+                <a href="#Solar Panels" class="nav_links hover:bg-slate-400 p-2 rounded-lg">Solar
+                    Panels</a>
+            </div>
+            <div class="flex flex-col">
+                <a href="http://shop.tesla.com" class="nav_links hover:bg-slate-400 p-2 rounded-lg">Shop</a>
+                <a href="#Menu" class="nav_links hover:bg-slate-400 p-2 rounded-lg">Account</a>
+            </div>
+        </nav>
+        <section id="modelS" class="car_section">
+            <img src="./images/ModelS.jfif" alt="Model S Image" class="car_img">
+
+            <div class='car_details transform_50'>
+                <h1 class="model_name">Model S</h1>
+                <h2 class="tag_line">Order Online for <span class="underline cursor-pointer">Touchless Delivery</span>
+                </h2>
+            </div>
+
+            <div class="car_buttons transform_50">
+                <button class="btn">Custom Order</button>
+                <button class="btn inventory">Existing Inventory</button>
+            </div>
+
+            <a href="#model3">
+                <img src="/public/images/down.svg" alt="" class="down_svg">
+            </a>
+        </section>
+        <section id="model3" class="car_section">
+            <img src="./images/Model3.jfif" alt="Model S Image" class="car_img">
+
+            <div class='car_details transform_50'>
+                <h1 class="model_name">Model 3</h1>
+                <h2 class="tag_line">Order Online for <span class="underline cursor-pointer">Touchless Delivery</span>
+                </h2>
+            </div>
+
+            <div class="car_buttons transform_50">
+                <button class="btn">Custom Order</button>
+                <button class="btn inventory">Existing Inventory</button>
+            </div>
+
+            <a href="#modelX">
+                <img src="/public/images/down.svg" alt="" class="down_svg">
+            </a>
+        </section>
+        <section id="modelX" class="car_section">
+            <img src="./images/ModelX.jfif" alt="Model S Image" class="car_img">
+
+            <div class='car_details transform_50'>
+                <h1 class="model_name">Model X</h1>
+                <h2 class="tag_line">Order Online for <span class="underline cursor-pointer">Touchless Delivery</span>
+                </h2>
+            </div>
+
+            <div class="car_buttons transform_50">
+                <button class="btn">Custom Order</button>
+                <button class="btn inventory">Existing Inventory</button>
+            </div>
+
+            <a href="#modelY">
+                <img src="/public/images/down.svg" alt="" class="down_svg">
+            </a>
+        </section>
+        <section id="modelY" class="car_section">
+            <img src="./images/ModelY.jfif" alt="Model S Image" class="car_img">
+
+            <div class='car_details transform_50'>
+                <h1 class="model_name">Model Y</h1>
+                <h2 class="tag_line">Order Online for <span class="underline cursor-pointer">Touchless Delivery</span>
+                </h2>
+            </div>
+
+            <div class="car_buttons transform_50">
+                <button class="btn">Custom Order</button>
+                <button class="btn inventory">Existing Inventory</button>
+            </div>
+
+            <a href="#Solar Roof">
+                <img src="/public/images/down.svg" alt="" class="down_svg">
+            </a>
+        </section>
+        <section id="Solar Roof" class="car_section">
+            <img src="./images/SolarRoof.jfif" alt="Model S Image" class="car_img">
+
+            <div class='car_details transform_50'>
+                <h1 class="model_name">Solar Roof</h1>
+                <h2 class="tag_line">Order Online for <span class="underline cursor-pointer">Touchless Delivery</span>
+                </h2>
+            </div>
+
+            <div class="car_buttons transform_50">
+                <button class="btn">Custom Order</button>
+                <button class="btn inventory">Existing Inventory</button>
+            </div>
+
+            <a href="#Solar Panels">
+                <img src="/public/images/down.svg" alt="" class="down_svg">
+            </a>
+        </section>
+        <section id="Solar Panels" class="car_section">
+            <img src="./images/SolarPanels.jfif" alt="Model S Image" class="car_img">
+
+            <div class='car_details transform_50'>
+                <h1 class="model_name">Solar Panel</h1>
+                <h2 class="tag_line">Order Online for <span class="underline cursor-pointer">Touchless Delivery</span>
+                </h2>
+            </div>
+
+            <div class="car_buttons transform_50">
+                <button class="btn">Custom Order</button>
+                <button class="btn inventory">Existing Inventory</button>
+            </div>
+        </section>
+        <script>
+            //Function to toggle the menu bar
+            let popUpMenu = document.getElementById("popmenu");
+            function menuIcon() {
+                popUpMenu.style.display = "flex";
+            }
+            function closeIcon() {
+                popUpMenu.style.display = "none";
+            }
+        </script>
+    </div>
+</body>
+
+</html>
