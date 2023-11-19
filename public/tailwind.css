@@ -540,22 +540,6 @@ video {
   top: 0px;
 }
 
-.left-0{
-  left: 0px;
-}
-
-.right-0{
-  right: 0px;
-}
-
-.right-1{
-  right: 0.25rem;
-}
-
-.mr-0{
-  margin-right: 0px;
-}
-
 .-mr-20{
   margin-right: -5rem;
 }
@@ -630,17 +614,8 @@ video {
   line-height: 2.5rem;
 }
 
-.font-bold{
-  font-weight: 700;
-}
-
 .font-medium{
   font-weight: 500;
-}
-
-.text-white{
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .text-slate-400{
